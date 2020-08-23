@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+
+		<style type="text/css">
+				
+            body {
+                
+                font-family: 'Karla', sans-serif;
+                                
+            }
+            
+             .active a {
+                
+                color:#ffc107 !important;
+                
+            } 
+		
+			li a {
+				
+				color:white !important;
+			
+			}
+			
+			li a:hover {
+				
+				color:#ffc107 !important;
+				background-color:#343a40 !important;
+				
+			}	
+			
+			a {
+			
+				color:black;
+			
+			}
+			
+			a:hover {
+			
+				color:#ffc107;
+				text-decoration:none;
+			
+			}
+				
+			#searchBar {
+			
+				width:250px;
+			
+			}
+			
+			#mainPageContainer {
+			
+				padding:0 50px 30px 50px;
+				margin-right:0;
+				
+			}
+			
+			#mainPageBio {
+			
+				height:400px;
+			
+			}
+						
+			.jumbotron {
+		
+				background-image:url(Images/jumbotron.jpg);
+				text-align:center;
+				padding-top:150px;
+				padding-bottom:120px;
+				margin-right:0;
+				
+			}
+		
+			#footer {
+		
+				background-color:#343a40;
+				color:#84868a;
+				height:150px;
+				padding-top:20px;
+				margin:0;	
+			
+			}
+			
+			#mainPageCardDeck1 {
+			
+				padding-bottom:2px;
+			
+			}
+			
+			.card-img-top {
+			
+				width:100%;
+			
+			}
+					
+		</style>
+
+		<title>Emily Wade</title>
+
+	</head>
+	<body>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="index.html">Emily Wade</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="interests.html">Interests</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Experience
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:#343a40">
+							<a class="dropdown-item" href="university.html">University</a>
+							<a class="dropdown-item" href="placement.html">Placement</a>
+							<a class="dropdown-item" href="web-dev.html">Web Development</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="jumbotron" id="jumbotron">
+			<h1 class="display-4">Emily Wade</h1>
+			<hr class="my-4">
+			<p class="lead">Welcome to my website!</p>
+			<p>I am a recent BSc Mathematics graduate from Cardiff 
+			University seeking opportunities with forward-thinking FinTechs. 
+			After my placement year in Credit Risk with Lloyds Banking Group 
+			lender, I am keen to move to financial services that adopt a 
+			more modern-day approach to banking.</p>
+			<p>My key individual project is completing a web development
+			course, developing strong foundations in a variety of coding
+			languages. I have created this portfolio using skills learnt
+			along the way!</p>
+			<p>Outside of education, my passion lies within cooking and recipe-perfecting. I spend a large portion of my day outside and enjoy 
+			long-distance running and yoga.</p>
+		</div>
+		
+		<div class="container-fluid" id="mainPageContainer">
+			<div data-aos="fade-up" class="container" id="cardSummary">	
+				<div class="row justify-content-center">
+					<h1>Find Out More</h1>
+				</div>
+				<div class="row justify-content-center">
+					<p class="lead">Click on the below for more information.</p>
+				</div>
+			</div>
+			
+			<div class="card-deck" id="mainPageCardDeck1">
+				<div data-aos="fade-up" class="card text-center">
+					<a href="interests.html"><img class="card-img-top" src="Images/Run.jpg" alt="Running image"></a>
+					<div class="card-body">
+						<h5 class="card-title"><a href="interests.html">Fitness</a></h5>
+							<p class="card-text">I spend a large portion of my day outside and enjoy long-distance running and yoga. I used to...</p>
+					</div>
+				</div>
+				
+				<div data-aos="fade-up" class="card text-center">
+					<a href="web-dev.html"><img class="card-img-top" src="Images/udemy.jpg" alt="Card image cap"></a>
+					<div class="card-body">
+						<h5 class="card-title"><a href="web-dev.html">Web Development</a></h5>
+						<p class="card-text">Like most others graduating during this pandemic, I’ve been feeling slightly lost now I have no lectures or revision to complete. So I’ve used my free time to complete the...</p>
+					</div>
+				</div>
+				
+				<div data-aos="fade-up" class="card text-center">
+					<a href="interests.html"><img class="card-img-top" src="Images/food.jpg" alt="Card image cap"></a>
+					<div class="card-body">
+						<h5 class="card-title"><a href="interests.html">Cooking</a></h5>
+						      <p class="card-text">Outside of education, my passion lies within cooking and recipe-perfecting. One of my main motivators...</p>
+					</div>
+				</div>
+			</div>
+				
+			<div class="card-deck" id="mainPageCardDeck2">	
+				<div data-aos="fade-up" class="card text-center">
+					<a href="placement.html"><img class="card-img-top" src="Images/lloyds.jpg" alt="Card image cap"></a>
+					<div class="card-body">
+						<h5 class="card-title"><a href="placement.html">Placement</a></h5>
+						<p class="card-text">In my 3rd year of my degree I spent a year at Lloyds Banking Group in their Credit Risk team. I thoroughly enjoyed my...</p>
+					</div>
+				</div>
+				
+				<div data-aos="fade-up" class="card text-center">
+					<a href="university.html"><img class="card-img-top" src="Images/uni.jpg" alt="Card image cap"></a>
+					<div class="card-body">
+						<h5 class="card-title"><a href="university.html">University</a></h5>
+						<p class="card-text">As a recent graduate, my time at University has formed an important part of my professional development. I have...</p>
+					</div>
+				</div>
+				
+				<div data-aos="fade-up" class="card text-center">
+					<a href="contact.html"><img class="card-img-top" src="Images/contact.jpg" alt="Card image cap"></a>
+					<div class="card-body">
+						<h5 class="card-title"><a href="contact.html">Contact</a></h5>
+						<p class="card-text">Questions/ feedback/ any other thoughts? I'd love to hear from you! The easiest ways to reach me are...</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<div class="row justify-content-center" id="email">
+				<p><strong>Email:</strong> emilywade314@gmail.com</p>
+			</div>
+			<div class="row justify-content-center" id="telephone">
+				<p><strong>Telephone:</strong> 07753269441</p>
+			</div>
+			<div class="row justify-content-center" id="copyright">
+				<p><strong><i>Copyright &copy Emily Wade</i></strong></p>
+			</div>
+		</div>
+	
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+        <script>
+            AOS.init();
+        </script>
+		
+	</body>
+</html>

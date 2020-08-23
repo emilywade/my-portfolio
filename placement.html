@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+        <link href="fontawesome/css/all.css" rel="stylesheet">
+
+		<style type="text/css">
+				
+            body {
+                
+                font-family: 'Karla', sans-serif;
+                                
+            }
+            
+            .site {
+                
+                display: flex;
+                min-height: 100vh;
+                flex-direction: column;
+                
+            }
+            
+             .active a {
+                
+                color:#ffc107 !important;
+                
+            }
+					
+			li a {
+				
+				color:white !important;
+			
+			}
+			
+			li a:hover {
+				
+				color:#ffc107 !important;
+				background-color:#343a40 !important;
+				
+			}	
+			
+			a {
+			
+				color:black;
+			
+			}
+			
+			a:hover {
+			
+				color:#ffc107;
+				text-decoration:none;
+			
+			}
+				
+			#searchBar {
+			
+				width:250px;
+			
+			}
+					
+			#footer {
+		
+				background-color:#343a40;
+				color:#84868a;
+				height:150px;
+				padding-top:20px;
+                width:100%;
+			
+			} 	
+            
+            #placementContainer {
+                
+                padding:0;
+                min-height:100%;
+                flex:1;
+                
+            }
+            
+            #placementHead {
+                
+                margin-top:70px;
+                background-color: #ffe666;
+                border-radius: 5px;
+                width:90%;
+                padding:50px 30px;
+                text-align: center;
+                                
+            }
+            
+            #placementHead p {
+                
+                font-size: 110%;
+                
+            }
+                        
+            #placementSkills {
+                
+                width:90%;
+                background-color:#ffe666;
+                border-radius: 5px;
+                height:280px;      
+                margin-top:5px;
+                padding:50px;
+                text-align: center;
+                
+            }
+                    
+            #placementProjectsHead {
+                
+                width:90%;
+                background-color:#ffe666;
+                border-radius: 5px;
+                height:120px;      
+                margin-top:20px;
+                padding:30px;
+                text-align: center;
+                margin-bottom: 0;
+                
+            }
+          
+            
+            #project1, #project3 {
+                
+                text-align: left;
+                width:90%;
+                background-color:#ffe666;
+                border-radius: 5px;
+                min-height:200px;      
+                margin-top:5px;
+                padding:30px 30px 30px 0px;
+                border-left:#ffcc00 30px solid;
+                                
+            }
+            
+            #project2 {
+                
+                text-align: right;
+                width:90%;
+                background-color:#ffe666;
+                border-radius: 5px;
+                min-height:200px;      
+                margin-top:5px;
+                padding:30px 0px 30px 30px;
+                border-right:#ffcc00 30px solid;
+                                
+            }
+            
+            #project3 {
+                
+                margin-bottom:40px;
+                
+            }
+            
+            .columns {
+                
+                float:left;
+                width:50%;
+                text-align:center;
+                
+            }
+                       
+            .projects {
+                
+                min-height: 310px;
+                
+            }
+            
+            @media (max-width: 700px) {
+            
+                .columns {
+                
+                    width: 100%;
+                    
+                }
+                
+                #placementSkills {
+                    
+                    height:470px;
+                    
+                }
+                
+            } 
+        
+            @media (min-width: 850px) {
+                
+                .columns {
+                    
+                    width:33%;
+                                        
+                }
+                
+                #placementSkills {
+                    
+                    height:210px;
+                    
+                }
+                                
+            }
+        
+		</style>
+
+		<title>Emily Wade</title>
+
+	</head>
+	<body class="site">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="home.html">Emily Wade</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="home.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="interests.html">Interests</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Experience
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:#343a40">
+								<a class="dropdown-item" href="university.html">University <span class="sr-only">(current)</span></a>
+								<a class="dropdown-item" href="placement.html">Placement</a>
+								<a class="dropdown-item" href="web-dev.html">Web Development</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+            
+            
+            <div class="container-fluid" id="placementContainer">
+                <div class="container-fluid" id="placementHead">
+
+                    <h1><strong>PLACEMENT</strong></h1>
+                    
+                    <hr>
+
+                    <p>In my 3rd year of my degree I spent a year at Lloyds Banking Group in their Credit Risk team. I thoroughly enjoyed my time with the company and certainly learnt a lot. Below I have highlighted a few important skills I developed during my placement year, alongside key projects that I was involved in.</p>
+
+                </div>
+
+
+                <div data-aos="fade-up" class="container-fluid" id="placementProjectsHead">
+                    
+                    <h1>SKILLS</h1>
+                    
+                    <hr>
+                
+                </div>
+                
+                <div data-aos="fade-up" class="container-fluid" id="placementSkills">
+
+                    <div class="columns">
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>SAS programming</p>
+                    </div>
+                    
+                    <div class="columns">
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>Automation</p>
+                    </div>
+
+                    <div class="columns">
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>Microsoft Excel</p>
+                    </div>
+                    
+                    <div class="columns">
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>Data analysis</p>
+                    </div>
+
+                    <div class="columns">
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>Communication &amp; <br>interpersonal skills</p>        
+                    </div>
+                    
+                    <div class="columns">
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>Presentation skills</p>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-up" class="container-fluid" id="placementProjectsHead">
+                    
+                    <h1>PROJECTS</h1>
+                    
+                    <hr>
+                
+                </div>
+                
+                <div data-aos="fade-up" class="container-fluid placementProjects" id="project1">
+                    
+                     <div class="container-fluid" id="project1Head">
+
+                         <h2>Monthly MI Reporting</h2>
+
+                     </div>
+
+                     <div class="container-fluid" id="project1Body">
+                        <p>My main ongoing responsibility was leading end-to-end data analysis in monthly MI reporting. I confidently presented an articulate story of events to the team and anticipated questions from stakeholders. This project allowed me to develop my presentation skills, which I hadn't had a chance to during my degree. I engaged in several presentation training sessions and organised feedback meetings with my superiors in order to improve my skillset.</p>
+                    </div>
+                    
+                </div>
+                
+                <div data-aos="fade-up" class="container-fluid modules" id="project2">
+                    
+                     <div class="container-fluid" id="project2Head">
+
+                         <h2>Management Information (MI) Rebuild</h2>
+
+                     </div>
+
+                     <div class="container-fluid" id="project2Body">
+                        <p>This was by far my most pertinent project. I was the project lead in charge of rebuilding an outdated SQL MI process in SAS Enterprise Guide. I simplified existing data pulls and manipulations which reduced the overall MI refresh time by 91%, so that the process spanned one morning over the original 3 days. Team-wide transparency was a large issue before my arrival, so I ensured everything was appropriately documented throughout the project. Once the foundations were in place and proper testing had taken place, I automated all data extrapolations and exports to Excel to further reduce on human error, costs and time. Alongside the programming, I developed a technical Excel pack to aid the monthly analysis of outputs, including forecasting and error detection tools.</p>
+                    </div>
+                    
+                </div>
+                
+                <div data-aos="fade-up" class="container-fluid modules" id="project3">
+                    
+                     <div class="container-fluid" id="project3Head">
+
+                         <h2>Analytical Inefficiencies</h2>
+
+                     </div>
+
+                     <div class="container-fluid" id="project3Body">
+                        <p>I volunteered as part of a key workstream, where we worked to identify and implement solutions to team-wide analytical inefficiencies. Key deliverables included binary compression on large datasets, timestamps to reduce folder capacity and implementation of SAS scheduler and nightqueue. We comitted to regualar meetings and goal-setting sessions to ensure deadlines were met and deliverables were consisistent and visible.</p>
+                    </div>
+                    
+                </div>
+            
+            
+            
+		<div id="footer">
+			<div class="row justify-content-center" id="email">
+				<p><strong>Email:</strong> emilywade314@gmail.com</p>
+			</div>
+			<div class="row justify-content-center" id="telephone">
+				<p><strong>Telephone:</strong> 07753269441</p>
+			</div>
+			<div class="row justify-content-center" id="copyright">
+				<p><strong><i>Copyright &copy Emily Wade</i></strong></p>
+			</div>
+		</div>
+            
+            
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+        <script>
+            
+            AOS.init();
+            
+        </script>
+
+
+
+	</body>
+</html>  

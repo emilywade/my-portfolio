@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+        <link href="fontawesome/css/all.css" rel="stylesheet">
+
+		<style type="text/css">
+				
+            body {
+                
+                font-family: 'Karla', sans-serif;
+                                
+            }
+            
+            .site {
+                
+                display: flex;
+                min-height: 100vh;
+                flex-direction: column;
+                
+            }
+            
+             .active a {
+                
+                color:#ffc107 !important;
+                
+            }
+					
+			li a {
+				
+				color:white !important;
+			
+			}
+			
+			li a:hover {
+				
+				color:#ffc107 !important;
+				background-color:#343a40 !important;
+				
+			}	
+			
+			a {
+			
+				color:black;
+			
+			}
+			
+			a:hover {
+			
+				color:#ffc107;
+				text-decoration:none;
+			
+			}
+				
+			#searchBar {
+			
+				width:250px;
+			
+			}
+					
+			#footer {
+		
+				background-color:#343a40;
+				color:#84868a;
+				height:150px;
+				padding-top:20px;
+                width:100%;
+			
+			} 	
+            
+            #webDevContainer {
+                
+                padding:0;
+                min-height:100%;
+                flex:1;
+                
+            }
+            
+            #webDevHead {
+                
+                margin-top:70px;
+                background-color: #ffe666;
+                border-radius: 5px;
+                width:90%;
+                padding:50px 30px;
+                text-align: center;
+                                
+            }
+            
+            #webDevHead p {
+                
+                font-size: 110%;
+                
+            }
+                        
+            #webDevSkills {
+                
+                width:90%;
+                background-color:#ffe666;
+                border-radius: 5px;
+                height:280px;      
+                margin-top:5px;
+                padding:50px;
+                text-align: center;
+                
+            }
+                    
+            #webDevProjectsHead {
+                
+                width:90%;
+                background-color:#ffe666;
+                border-radius: 5px;
+                height:120px;      
+                margin-top:20px;
+                padding:30px;
+                text-align: center;
+                margin-bottom: 0;
+                
+            }
+          
+            
+            #project1 {
+                
+                text-align: left;
+                width:90%;
+                background-color:#ffe666;
+                border-radius: 5px;
+                min-height:400px;      
+                margin-top:5px;
+                padding:30px 30px 30px 0px;
+                border-left:#ffcc00 30px solid;
+                                
+            }
+            
+            #project2 {
+                
+                text-align: right;
+                width:90%;
+                background-color:#ffe666;
+                border-radius: 5px;
+                min-height:370px;      
+                margin-top:5px;
+                padding:30px 0px 30px 30px;
+                border-right:#ffcc00 30px solid;
+                                
+            }
+            
+            #project3 {
+                
+                text-align: left;
+                width:90%;
+                background-color:#ffe666;
+                border-radius: 5px;
+                min-height:350px;      
+                margin-top:5px;
+                padding:30px 30px 30px 0px;
+                border-left:#ffcc00 30px solid;
+                margin-bottom:40px;
+                                
+            }
+        
+            
+            .columns {
+                
+                float:left;
+                width:50%;
+                text-align:center;
+                
+            }
+                               
+            #image1 {
+                
+                float:left;
+                width:300px;
+                padding-right:20px;
+                padding-top:10px;
+                
+            }
+            
+            #project1Body p {
+                
+                padding-top:40px;
+                
+            }
+            
+            #image2 {
+                
+                float:right;
+                width:500px;
+                padding-left:20px;
+                padding-top:10px;
+                                
+            }
+            
+            #project2Body p {
+                
+                padding-top:30px;
+                
+            }
+                        
+            #image3 {
+                
+                float:left;
+                width:500px;
+                padding-right:20px;
+                padding-top:10px;
+                                
+            }
+            
+            #project3Body p {
+                
+                padding-top:40px;
+                
+            }
+            
+            @media (max-width: 700px) {
+            
+                .columns {
+                
+                    width: 100%;
+                    
+                }
+                
+                #webDevSkills {
+                    
+                    height:470px;
+                    
+                }
+                
+                #image1, #image2, #image3 {
+                    
+                    width:100%;
+                    padding-bottom: 10px;
+                                        
+                }
+                
+            } 
+        
+            @media (min-width: 850px) {
+                
+                .columns {
+                    
+                    width:33%;
+                                        
+                }
+                
+                #webDevSkills {
+                    
+                    height:210px;
+                    
+                }
+                                
+            }
+        
+		</style>
+
+		<title>Emily Wade</title>
+
+	</head>
+	<body class="site">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="home.html">Emily Wade</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="home.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="interests.html">Interests</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Experience
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:#343a40">
+								<a class="dropdown-item" href="university.html">University <span class="sr-only">(current)</span></a>
+								<a class="dropdown-item" href="placement.html">Placement</a>
+								<a class="dropdown-item" href="web-dev.html">Web Development</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+            
+            
+            <div class="container-fluid" id="webDevContainer">
+                <div class="container-fluid" id="webDevHead">
+
+                    <h1><strong>WEB DEVELOPMENT</strong></h1>
+                    
+                    <hr>
+
+                    <p>Like most others graduating during this pandemic, I’ve been feeling slightly lost now I have no lectures or revision to complete. So I’ve used my free time to complete the Udemy course in web development. Coding is something I haven’t had much of an opportunity to explore throughout my degree, so the wide range of languages it touched upon was something that really appealed to me. I created this portfolio using skills I learnt throughout the course, and the next project I plan on getting stuck into is developing my own vegan food blog to share some of my favourite recipes!</p>
+
+                </div>
+
+
+                <div data-aos="fade-up" class="container-fluid" id="webDevProjectsHead">
+                    
+                    <h1>SKILLS</h1>
+                    
+                    <hr>
+                
+                </div>
+                
+                <div data-aos="fade-up" class="container-fluid" id="webDevSkills">
+
+                    <div class="columns">
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>HTML</p>
+                    </div>
+                    
+                    <div class="columns">
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"><i class="fas fa-star"></i></i><br>CSS</p>
+                    </div>
+
+                    <div class="columns">
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>Javascript/jQuery</p>
+                    </div>
+                    
+                    <div class="columns">
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>PHP</p>
+                    </div>
+
+                    <div class="columns">
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>MySQL</p>        
+                    </div>
+                    
+                    <div class="columns">
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br>Python</p>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-up" class="container-fluid" id="webDevProjectsHead">
+                    
+                    <h1>PROJECTS</h1>
+                    
+                    <hr>
+                
+                </div>
+                
+                <div data-aos="fade-up" class="container-fluid webDevProjects" id="project1">
+                    
+                     <div class="container-fluid" id="project1Head">
+
+                         <h2>Javascript Reaction Timer</h2>
+
+                     </div>
+
+                     <div class="container-fluid" id="project1Body">
+                        <img src="Images/javascript.JPG" alt="javascript" id="image1">
+                        <p>I went from having zero Javascript knowledge, to understanding how to make Javascript interact with HTML, how to make pages behave as you want them to, and then how to create complex code structures using variables, arrays, loop and IF statements. I was then able to create this reaction tester, as shown to the left. It measures how long it takes you to click on the shape on the page once it appears. The shape appears in a random position on the page each time you play, it takes a random amount of time to appear, it's randomly sized and coloured, and it's randomly a square or a circle. This challenge was the first I completed that required a combination of HTML, CSS and Javascript, and it introduced timing and randomness.</p>
+                     </div>
+                    
+                </div>
+                
+                <div data-aos="fade-up" class="container-fluid modules" id="project2">
+                    
+                     <div class="container-fluid" id="project2Head">
+
+                         <h2>jQuery Code Player</h2>
+
+                     </div>
+
+                     <div class="container-fluid" id="project2Body">
+                        <img src="Images/jquery.JPG" alt="jquery" id="image2">
+                        <p>jQuery was taught as an introduction to Javascript frameworks, and explained why you may want to include them in your sites. I learnt how to animate and fade content, how to use jQuery and AJAX to build interactive content that doesn't require browser refreshes, and how to implement form validation. The Code Player which I built was based on the website <a target="_blank" href="https://jsbin.com/?html,output">jsbin.com</a>. It basically serves as a way to share code in a concise and easy-to-interpret manner. I built a slightly simplifed version, which has all the core functionalities: HTML, CSS, Javascript and an Output.</p>
+                     </div>
+                    
+                </div>
+                
+                <div data-aos="fade-up" class="container-fluid modules" id="project3">
+                    
+                     <div class="container-fluid" id="project3Head">
+
+                         <h2>Python Mastermind</h2>
+
+                     </div>
+
+                     <div class="container-fluid" id="project3Body">
+                         <img src="Images/python.jpg" alt="python" id="image3">
+                         <p>A lot of the content covered in this chapter was stuff that I was already familar with from my time at University. It covered Python basics including variables, arrays, loops, IF statements and functions. The challenge at the end of the chapter was to build a version of the 2-player game Mastermind. I learnt how to interact with the user to create a guessing-game that gave feedback to the user as they guessed correctly or incorrectly.</p>
+                    </div>
+                    
+                </div>
+            
+            
+            
+		<div id="footer">
+			<div class="row justify-content-center" id="email">
+				<p><strong>Email:</strong> emilywade314@gmail.com</p>
+			</div>
+			<div class="row justify-content-center" id="telephone">
+				<p><strong>Telephone:</strong> 07753269441</p>
+			</div>
+			<div class="row justify-content-center" id="copyright">
+				<p><strong><i>Copyright &copy Emily Wade</i></strong></p>
+			</div>
+		</div>
+            
+            
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+        <script>
+            
+            AOS.init();
+            
+        </script>
+
+
+
+	</body>
+</html>  

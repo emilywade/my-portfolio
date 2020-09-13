@@ -3,7 +3,6 @@
 
 	<head>
 		<meta charset="utf-8">
-		<meta name="format-detection" content="telephone=no">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -144,6 +143,14 @@
             
             } 
             
+            #runningBody img, #yogaBody img {
+                
+                float:left;
+                width:300px;
+                padding: 0 20px 10px 35px;
+                
+            }
+            
             #runningBody p, #yogaBody p {
                 
                 padding-left:35px;
@@ -151,12 +158,7 @@
                 
             }
             
-            #cookingBody p {
-                
-                padding-right:35px;
-                text-align:justify;
-                
-            }
+           
                     
             #cookingBody {
                 
@@ -167,20 +169,25 @@
                 justify-content:center;
                 
             }
+            
+            #cookingBody p {
                 
-            #carouselRunning, #carouselYoga {
-                
-                width:300px;
-                float:left;
-                padding: 0 20px 10px 35px;
+                padding-right:35px;
+                text-align:justify;
                 
             }
             
-            #carouselCooking {
+            #cookingBody img {
                 
                 width:300px;
                 float:right;
                 padding: 0 35px 10px 20px;
+                
+            }
+            
+            .links {
+                
+                color:#84868a;
                 
             }
             
@@ -304,20 +311,9 @@
                  </div>
                         
                  <div class="container-fluid" id="runningBody">
-                   
-                     <div id="carouselRunning" class="carousel slide" data-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img class="d-block w-100 img-fluid" src="Images/Running.jpg" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                              <img class="d-block w-100 img-fluid" src="Images/Running2.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                              <img class="d-block w-100 img-fluid" src="Images/Running3.jpg" alt="Third slide">
-                            </div>
-                          </div>
-                        </div>
+            
+                        <img src="Images/Running2.jpg">   
+    
                         <p>I have completed 3 half marathons raising over £1k for charity, and I am currently training for the Manchester Marathon. It was supposed to take place in April, but due to Coronavirus has now been postponed until next year. Completing a marathon has been a goal of mine since I can remember, so I'm excited to tick it off my bucket list!<br><br>
                         I regularly competed for my high school in athletics events and my best event was 1500m. One of my personal achievements was coming 1st in a qualifying competition and making it to Berkshire Schools in my final year, where I achieved 4th place.</p>
                         
@@ -335,21 +331,10 @@
                         
                  <div class="container-fluid" id="cookingBody">
                    
-                     <div id="carouselCooking" class="carousel slide carousel-fade" data-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img class="d-block w-100" src="Images/food.jpg" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                              <img class="d-block w-100" src="Images/cooking2.JPG" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                              <img class="d-block w-100" src="Images/cooking3.JPG" alt="Third slide">
-                            </div>
-                          </div>
-                        </div>
-                        <p>I got really into cooking around the start of university and spend a lot of my time thinking about what I want to cook next. I became vegan a few years ago and have really enjoyed recreating some of favourite non-vegan favourites so that I can eat them today! One of my favourite dishes has been the vegan 'black pudding' and mushroom 'scallops' with pea purée, shown to the right.<br><br>
-                        I am curerntly running a vegan Instagram account - <a href="https://www.instagram.com/emgemlettuce/" target="_blank">@emgemlettuce</a> - and I get quite a few messages about sharing recipes for the food that I post! I dedicate a lot of time to perfecting recipes, so I'm planning on sharing these through my own vegan food blog, which is my next big project to get stuck into. Once it's ready to go I'll share on here!</p>
+                    <img src="Images/cooking3.JPG">
+                    
+                    <p>I got really into cooking around the start of university and spend a lot of my time thinking about what I want to cook next. I became vegan a few years ago and have really enjoyed recreating some of favourite non-vegan favourites so that I can eat them today! One of my favourite 'go-to' dishes is the Pad Thai, shown to the right.<br><br>
+                    I am currently running a vegan Instagram account - <a href="https://www.instagram.com/emgemlettuce/" target="_blank">@emgemlettuce</a> - and I get quite a few messages about sharing recipes for the food that I post! I dedicate a lot of time to perfecting recipes, so I'm planning on sharing these through my own vegan food blog, which is my next big project to get stuck into. Once it's ready to go I'll share on here!</p>
                         
                 </div>
         
@@ -365,20 +350,9 @@
                         
                  <div class="container-fluid" id="yogaBody">
                    
-                    <div id="carouselYoga" class="carousel slide carousel-fade" data-ride="carousel">
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img class="d-block w-100" src="Images/yoga2.jpg" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                              <img class="d-block w-100" src="Images/Yoga3.png" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                              <img class="d-block w-100" src="Images/yoga4.jpg" alt="Second slide">
-                            </div>
-                          </div>
-                        </div>
-                        <p>I have been practicing yoga for a few years now and it has quickly become one of my favourite ways to de-stress. I didn't have much of a chance to be artistic throughout my degree, so yoga has definitely been one of my creative outlets. One of my happiest memories is the few yoga classes I completed in Thailand a few summers ago, and it's inspired me to keep practicing until today. A personal goal of mine is to train as a yoga instructor, which I hope I can do in the coming years!</p>
+                    <img src="Images/yoga2.jpg">
+
+                    <p>I have been practicing yoga for a few years now and it has quickly become one of my favourite ways to de-stress. I didn't have much of a chance to be artistic throughout my degree, so yoga has definitely been one of my creative outlets. One of my happiest memories is the few yoga classes I completed in Thailand a few summers ago, and it's inspired me to keep practicing until today. A personal goal of mine is to train as a yoga instructor, which I hope I can do in the coming years!</p>
                         
                 </div>
                     
@@ -391,10 +365,10 @@
 			
 		<div id="footer">
 			<div class="row justify-content-center" id="email">
-				<p><strong>Email:</strong> emilywade314@gmail.com</p>
+				<p><strong>Email:</strong> <a href="mailto:emilywade314@gmail.com" class="links">emilywade314@gmail.com</a></p>
 			</div>
 			<div class="row justify-content-center" id="telephone">
-				<p><strong>Telephone:</strong> 07753269441</p>
+				<p><strong>Telephone:</strong> <a href="tel:07753269441" class="links">07753269441</a></p>
 			</div>
 			<div class="row justify-content-center" id="copyright">
 				<p><strong><i>Copyright &copy Emily Wade</i></strong></p>
@@ -409,6 +383,8 @@
 
         <script>
             AOS.init();
+            
+            window.history.replaceState(“interests.html”, “Title”, “/interests”);
         </script>
 
 
